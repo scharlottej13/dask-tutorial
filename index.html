@@ -46,7 +46,16 @@
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-P4GQM59"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden"
+  ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="dask-nav container-fluid">
   <ul>
     <li class="logo">
@@ -210,6 +219,19 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#more-tutorials-from-our-community">
+   More tutorials from our community
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -222,37 +244,26 @@
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#more-tutorials-from-our-community">
+   More tutorials from our community
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  
-<style>
-/* CSS overrides for sphinx_rtd_theme */
-
-/* 24px margin */
-.nbinput.nblast.container,
-.nboutput.nblast.container {
-    margin-bottom: 19px;  /* padding has already 5px */
-}
-
-/* ... except between code cells! */
-.nblast.container + .nbinput.container {
-    margin-top: -19px;
-}
-
-.admonition > p:before {
-    margin-right: 4px;  /* make room for the exclamation icon */
-}
-
-/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
-.math {
-    text-align: unset;
-}
-</style>
-<div class="section" id="dask-tutorial">
+  <div class="section" id="dask-tutorial">
 <h1>Dask Tutorial<a class="headerlink" href="#dask-tutorial" title="Permalink to this headline">¶</a></h1>
 <p>You can run this tutorial in a live session here: <a class="reference external" href="https://mybinder.org/v2/gh/dask/dask-tutorial/main?urlpath=lab"><img alt="Binder" src="https://static.mybinder.org/badge_logo.svg" /></a></p>
 <p>This tutorial was last given at SciPy 2020 in Austin Texas.
@@ -266,6 +277,14 @@
 <li class="toctree-l1"><a class="reference internal" href="04_distributed.html">Distributed - spread your data and computation across a cluster</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_futures.html">Futures - non-blocking distributed calculations</a></li>
 </ul>
+</div>
+<div class="section" id="more-tutorials-from-our-community">
+<h2>More tutorials from our community<a class="headerlink" href="#more-tutorials-from-our-community" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You may want to check out these free, recurring, <a class="reference external" href="https://www.coiled.io/tutorials">hour-long tutorials offered by Coiled</a>.</p></li>
+<li><p><a class="reference external" href="https://quansight.com/training">Quansight</a> offers a number of PyData courses, including Dask and Dask-ML.</p></li>
+</ul>
+<p>For a more comprehensive list of past talks and other resources see <a class="reference external" href="https://docs.dask.org/en/latest/presentations.html">Talks &amp; Tutorials</a> in the Dask documentation.</p>
 </div>
 </div>
 
@@ -301,6 +320,30 @@
     </div>
   
   <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      "gtm.start": new Date().getTime(),
+      event: "gtm.js",
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(
+    window,
+    document,
+    "script",
+    "dataLayer",
+    "GTM-P4GQM59"
+  );
+</script>
+<!-- End Google Tag Manager -->
 
   </body>
 </html>
